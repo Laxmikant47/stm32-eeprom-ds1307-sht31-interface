@@ -1,5 +1,3 @@
-#include <stdio.h>
-#include <string.h>
 
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
@@ -7,6 +5,8 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
+#include <stdio.h>
+#include <string.h>
 
 #define EEPROM_ADDR          (0x50 << 1)  // EEPROM address
 #define DS1307_ADDR          (0X68 << 1)  // RTC address
